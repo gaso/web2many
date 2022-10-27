@@ -1,0 +1,35 @@
+<odoo>
+    <template id="page_demo" name="Daltes de bonificació">
+        <t t-call="website.layout">
+            <div id="wrap" class="formulario_th">
+                <div class="container">
+                    <div class="o_portal_html_view p-3 row mb-3">
+                        <div class="col-sm-12">
+                            <form action="/demo" class="row g-3" enctype="multipart/form-data" method="post" style="font-size: 0.8rem">
+                                <!-- Campos ocultos -->
+                                <input name="csrf_token" t-att-value="request.csrf_token()" type="hidden"/>
+
+                                <div class="col-lg-12">
+                                     <h1>Pagina de Ejemplo</h1>
+                                </div>
+                                <div class="col-lg-12">
+                                     <h3>Listado de Paises</h3>
+                                </div>
+
+                                 <div class="col-lg-12">
+                                     <t t-call="th_o2m.country_list">
+                                         <t t-set="country_ids" t-value="country_ids"/>
+                                     </t>
+                                 </div>
+
+                                <div class="col-md-12">
+                                    <button type="submit" class="btn btn-primary mt-2 mb-2">Registrar sol·licitud</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </t>
+    </template>
+</odoo>

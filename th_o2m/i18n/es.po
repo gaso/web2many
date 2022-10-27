@@ -1,0 +1,227 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* th_website_my_menu
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 14.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-05-02 06:56+0000\n"
+"PO-Revision-Date: 2022-05-02 06:56+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: th_website_my_menu
+#: model_terms:ir.ui.view,arch_db:th_website_my_menu.view_website_my_menu_form
+msgid ""
+"<strong>Note:</strong>\n"
+"                                    Domain for visualization of the menu."
+msgstr ""
+"<strong>Note:</strong>\n"
+"                                    Dominio para la visualitzación del menú."
+
+#. module: th_website_my_menu
+#: model_terms:ir.ui.view,arch_db:th_website_my_menu.view_website_my_menu_form
+msgid ""
+"<strong>Note:</strong>\n"
+"                                    You can go to the"
+msgstr ""
+"<strong>Nota:</strong>\n"
+"                                    Puede generar un color para el menú en el siguiente "
+
+#. module: th_website_my_menu
+#: model:ir.model.fields,field_description:th_website_my_menu.field_tecnihand_website_my_account_menu__active
+msgid "Active"
+msgstr "Activo"
+
+#. module: th_website_my_menu
+#: model:ir.model.fields,field_description:th_website_my_menu.field_tecnihand_website_my_account_menu__color_background
+msgid "Background color"
+msgstr "Color de fondo"
+
+#. module: th_website_my_menu
+#: model:ir.model.fields,field_description:th_website_my_menu.field_tecnihand_website_my_account_menu__child_ids
+msgid "Child Menu"
+msgstr "Menú hijo"
+
+#. module: th_website_my_menu
+#: model_terms:ir.actions.act_window,help:th_website_my_menu.action_website_my_menu
+msgid "Click on the <b>Create</b> button to add a new menu."
+msgstr "Presione en el botón <b>Crear</b> para añadir un nuevo menú."
+
+#. module: th_website_my_menu
+#: model:ir.model.fields,field_description:th_website_my_menu.field_tecnihand_website_my_account_menu__create_uid
+msgid "Created by"
+msgstr "Creado por"
+
+#. module: th_website_my_menu
+#: model:ir.model.fields,field_description:th_website_my_menu.field_tecnihand_website_my_account_menu__create_date
+msgid "Created on"
+msgstr "Creado el"
+
+#. module: th_website_my_menu
+#: model:ir.model.fields,field_description:th_website_my_menu.field_tecnihand_website_my_account_menu__display_name
+msgid "Display Name"
+msgstr "Nombre"
+
+#. module: th_website_my_menu
+#: model:ir.model.fields,field_description:th_website_my_menu.field_tecnihand_website_my_account_menu__domain
+msgid "Domain"
+msgstr "Dominio"
+
+#. module: th_website_my_menu
+#: model:ir.model.fields,help:th_website_my_menu.field_tecnihand_website_my_account_menu__color_background
+#: model:ir.model.fields,help:th_website_my_menu.field_tecnihand_website_my_account_menu__color_text
+msgid ""
+"Formats of colors CSS:\n"
+"- Hexadecimal colors\n"
+"- Hexadecimal colors with transparency\n"
+"- RGB colors\n"
+"- RGBA colors\n"
+"- HSL colors\n"
+"- HSLA colors\n"
+"- Predefined/Cross-browser color names\n"
+msgstr ""
+"Formatos de colores CSS:\n"
+"- Colores hexadecimal\n"
+"- Colores hexadecimal con transparencia\n"
+"- Colores RGB\n"
+"- Colores RGBA\n"
+"- Colores HSL\n"
+"- Colores HSLA\n"
+"- Nombres de colores predefinidos/entre navegadores\n"
+
+#. module: th_website_my_menu
+#: model:ir.model.fields,field_description:th_website_my_menu.field_tecnihand_website_my_account_menu__id
+msgid "ID"
+msgstr ""
+
+#. module: th_website_my_menu
+#: model:ir.model.fields,help:th_website_my_menu.field_tecnihand_website_my_account_menu__url
+msgid "If empty, no link will be displayed"
+msgstr "Si està vacío, no se muestra ningún enlace"
+
+#. module: th_website_my_menu
+#: model:ir.model.fields,field_description:th_website_my_menu.field_tecnihand_website_my_account_menu__indice
+msgid "Indice"
+msgstr "Índice"
+
+#. module: th_website_my_menu
+#: model:ir.model.fields,field_description:th_website_my_menu.field_tecnihand_website_my_account_menu____last_update
+msgid "Last Modified on"
+msgstr "Última modificación el"
+
+#. module: th_website_my_menu
+#: model:ir.model.fields,field_description:th_website_my_menu.field_tecnihand_website_my_account_menu__write_uid
+msgid "Last Updated by"
+msgstr "Última actualitzación por"
+
+#. module: th_website_my_menu
+#: model:ir.model.fields,field_description:th_website_my_menu.field_tecnihand_website_my_account_menu__write_date
+msgid "Last Updated on"
+msgstr "Última modificación el"
+
+#. module: th_website_my_menu
+#: model:ir.model.fields,field_description:th_website_my_menu.field_tecnihand_website_my_account_menu__margin_top
+msgid "Margin Top (em)"
+msgstr "Margen superior (em)"
+
+#. module: th_website_my_menu
+#: model:ir.model.fields,help:th_website_my_menu.field_tecnihand_website_my_account_menu__margin_top
+msgid "Margin top in em"
+msgstr "Margen superior en em"
+
+#. module: th_website_my_menu
+#: model:ir.model.fields,field_description:th_website_my_menu.field_tecnihand_website_my_account_menu__model_id
+msgid "Model"
+msgstr "Modelo"
+
+#. module: th_website_my_menu
+#: model:ir.model.fields,field_description:th_website_my_menu.field_tecnihand_website_my_account_menu__model_domain
+msgid "Model Domain"
+msgstr "Dominio del modelo"
+
+#. module: th_website_my_menu
+#: model:ir.model.fields,field_description:th_website_my_menu.field_tecnihand_website_my_account_menu__model_name
+msgid "Model Name"
+msgstr "Nombre del modelo"
+
+#. module: th_website_my_menu
+#: model:ir.model.fields,field_description:th_website_my_menu.field_tecnihand_website_my_account_menu__model_partner_field
+msgid "Model Partner Field"
+msgstr "Campo padre del modelo"
+
+#. module: th_website_my_menu
+#: model:ir.actions.act_window,name:th_website_my_menu.action_website_my_menu
+#: model:ir.model,name:th_website_my_menu.model_tecnihand_website_my_account_menu
+#: model:ir.ui.menu,name:th_website_my_menu.my_account_menu
+#: model_terms:ir.ui.view,arch_db:th_website_my_menu.view_website_my_menu_form
+#: model_terms:ir.ui.view,arch_db:th_website_my_menu.view_website_my_menu_tree
+msgid "My Account Menu"
+msgstr "Menú Mi Cuenta"
+
+#. module: th_website_my_menu
+#: model:ir.model.fields,field_description:th_website_my_menu.field_tecnihand_website_my_account_menu__name
+msgid "Name"
+msgstr "Nombre"
+
+#. module: th_website_my_menu
+#: model:ir.model.fields,field_description:th_website_my_menu.field_tecnihand_website_my_account_menu__parent_id
+msgid "Parent Menu"
+msgstr "Menú padre"
+
+#. module: th_website_my_menu
+#: model_terms:ir.ui.view,arch_db:th_website_my_menu.view_website_my_menu_form
+msgid "Related Model"
+msgstr "Modelo Relacionado"
+
+#. module: th_website_my_menu
+#: model:ir.model.fields,field_description:th_website_my_menu.field_tecnihand_website_my_account_menu__sequence
+msgid "Sequence"
+msgstr "Secuencia"
+
+#. module: th_website_my_menu
+#: model_terms:ir.ui.view,arch_db:th_website_my_menu.view_website_my_menu_form
+msgid "Style"
+msgstr "Estilo"
+
+#. module: th_website_my_menu
+#: model_terms:ir.ui.view,arch_db:th_website_my_menu.view_website_my_menu_form
+msgid "Submenu"
+msgstr "Submenú"
+
+#. module: th_website_my_menu
+#: model:ir.model.fields,field_description:th_website_my_menu.field_tecnihand_website_my_account_menu__text_bold
+msgid "Text Bold"
+msgstr "Texto en negrita"
+
+#. module: th_website_my_menu
+#: model:ir.model.fields,field_description:th_website_my_menu.field_tecnihand_website_my_account_menu__text_italic
+msgid "Text Italic"
+msgstr "Texto en cursiva"
+
+#. module: th_website_my_menu
+#: model:ir.model.fields,field_description:th_website_my_menu.field_tecnihand_website_my_account_menu__color_text
+msgid "Text color"
+msgstr "Color del texto"
+
+#. module: th_website_my_menu
+#: model:ir.model.fields,field_description:th_website_my_menu.field_tecnihand_website_my_account_menu__url
+msgid "URL"
+msgstr ""
+
+#. module: th_website_my_menu
+#: model_terms:ir.ui.view,arch_db:th_website_my_menu.view_website_my_menu_form
+msgid "link"
+msgstr "enlace."
+
+#. module: th_website_my_menu
+#: model_terms:ir.ui.view,arch_db:th_website_my_menu.view_website_my_menu_form
+msgid ""
+"to\n"
+"                                    generate the color of the menu."
+msgstr " "

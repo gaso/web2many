@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templates id="template" xml:space="preserve">
+    <div t-name="th_o2m.country.modal" class="country_select_modal">
+
+        <h1>Hola desde modal</h1>
+
+        <form class="multisteps-form__form">
+            <div class="col-12 col-sm-3 mt-4 mt-sm-0">
+                <select name="country_id" id="country_id" t-attf-class="form-control">
+                    <t t-foreach="widget.countrys_data or []" t-as="record">
+                        <option t-att-value="record.id">
+                            <t t-esc="record.name"/>
+                        </option>
+                    </t>
+                </select>
+            </div>
+        </form>
+
+
+    </div>
+</templates>
